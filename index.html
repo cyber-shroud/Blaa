@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assembler Simulation</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/rog-lyonstype');
+    </style>
+    <link href="https://fonts.cdnfonts.com/css/rog-lyonstype" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Assembler</h1>
+
+        <!-- Upload Input and Optab -->
+        <div>
+            <label for="inputFile">Upload Input File: </label>
+            <input type="file" id="inputFile" accept=".txt">
+        </div>
+        <div>
+            <label for="optabFile">Upload Optab File: </label>
+            <input type="file" id="optabFile" accept=".txt">
+        </div>
+        <button onclick="processFiles()">Generate Output</button>
+
+       
+
+        <h2>Intermediate File</h2>
+        <pre id="finalOutput"></pre>
+
+        <h2>Record File</h2>
+        <pre id="recordFile"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
