@@ -3,20 +3,20 @@ body {
     background-color: #271818;
     background-image: url('https://wallpaperaccess.com/full/489618.jpg');
     margin: 20px;
-    background-size: cover; /* Ensures the image covers the entire container */
-    background-position: auto; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; 
+    background-position: auto; 
+    background-repeat: no-repeat; 
 }
 
 .container {
-    max-width: 800px; /* Maximum width of the container */
-    width: 90%; /* Width of the container, responsive */
-    min-height: 600px; /* Minimum height of the container */
-    background-color: rgba(66, 66, 66, 0.7); /* Semi-transparent white */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px; /* Padding around the content */
-    box-shadow: 0 12px 50px rgba(255, 0, 0, 0.2); /* Subtle shadow for depth */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; 
+    width: 90%; 
+    min-height: 600px;
+    background-color: rgba(66, 66, 66, 0.7); 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 12px 50px rgba(255, 0, 0, 0.2); 
+    margin: 0 auto; 
 }
 
 label {
@@ -38,26 +38,29 @@ button {
 }
 
 button:hover {
-    background-color: #ff0000; /* Darker red background on hover */
-    transform: scale(1.05); /* Slightly increase button size on hover */
+    background-color: #ff0000; 
+    transform: scale(1.05); 
 }
 input[type="file"], button {
     margin-top: 2px;
-    color: #f2eded; /* Change text color inside input fields */
+    color: #f2eded; 
    
 }
 input[type="file"], button {
     margin-top: 10px;
 }
 #finalOutput, #recordFile {
-    background-color: rgba(83, 83, 83, 0.5); /* Semi-transparent background */
+    background-color: rgba(83, 83, 83, 0.5); 
     color: #ffffff;
-    padding: 10px; /* Padding for text */
-    border-radius: 5px; /* Rounded corners */
-    margin-top: 10px; /* Space between the elements */
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-top: 10px; 
+}
+footer{
+    color: #707070;
 }
 pre {
-    background-color: rgba(224, 224, 224, 0.8); /* Slightly transparent background for pre elements */
+    background-color: rgba(224, 224, 224, 0.8); 
     padding: 10px;
     border-radius: 5px;
 }
